@@ -1,6 +1,6 @@
 [Unit]
 Description=Waydroid init
-After=waydroid-container.service
+After=surface-manager.service
 
 [Service]
 Type=oneshot

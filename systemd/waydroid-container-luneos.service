@@ -1,6 +1,6 @@
 [Unit]
 Description=Waydroid Container
-After=surface-manager.service
+After=waydroid-init.service
 Requires=surface-manager.service
 
 [Service]
